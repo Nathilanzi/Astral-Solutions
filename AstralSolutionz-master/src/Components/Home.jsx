@@ -224,18 +224,28 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Quotes Section */}
-      <section id="quotes" className="bg-[#2C3531] p-6 rounded-lg shadow-lg mt-12">
-        <h2 className="text-2xl font-semibold text-[#007AFF] mb-4">Request a Quote</h2>
-        <form className="max-w-lg mx-auto space-y-4">
-          <input type="text" placeholder="Your Name" className="w-full p-3 border rounded-lg bg-[#1a1a1a] text-white border-[#007AFF] focus:ring-[#00FFAB]" />
-          <input type="email" placeholder="Your Email" className="w-full p-3 border rounded-lg bg-[#1a1a1a] text-white border-[#007AFF] focus:ring-[#00FFAB]" />
-          <textarea placeholder="Your Message" className="w-full p-3 border rounded-lg bg-[#1a1a1a] text-white border-[#007AFF] focus:ring-[#00FFAB]"></textarea>
-          <button type="submit" className="w-full p-3 bg-[#007AFF] text-white rounded-lg hover:bg-[#397D5A] transition">
-            Submit
-          </button>
-        </form>
-      </section>
+      {/* Contact Card Section */}
+<section id="contact" className="bg-[#2C3531] p-6 rounded-lg shadow-lg mt-12">
+  <h2 className="text-2xl font-semibold text-[#007AFF] mb-4">Contact Us</h2>
+  <div className="space-y-6 text-[#00FFAB]">
+    <div className="flex items-center gap-4">
+      <Phone className="w-6 h-6 text-[#007AFF]" />
+      <span>+27 63 687 3558</span>
+    </div>
+    <div className="flex items-center gap-4">
+      <Users className="w-6 h-6 text-[#007AFF]" />
+      <span>nathilanziv@gmail.com</span>
+    </div>
+    <div className="flex items-center gap-4">
+      <Calendar className="w-6 h-6 text-[#007AFF]" />
+      <span>Mon - Fri: 9:00 AM - 5:00 PM</span>
+    </div>
+    <div className="flex items-center gap-4">
+      <Target className="w-6 h-6 text-[#007AFF]" />
+      <span>1/61 Lenatong Section, Phokeng, Rustenburg 0300</span>
+    </div>
+  </div>
+</section>
     </div>
   );
 };

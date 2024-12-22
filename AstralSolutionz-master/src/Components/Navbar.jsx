@@ -6,7 +6,7 @@ import {
   FaBullseye, 
   FaSeedling,
   FaTrophy, 
-  FaDollarSign
+  FaPhone
 } from 'react-icons/fa';
 import { Menu, X } from 'lucide-react';
 import { Link as ScrollLink } from 'react-scroll';  // Import ScrollLink
@@ -31,7 +31,7 @@ const Navbar = () => {
     { to: 'vision-plan', icon: <FaSeedling className="w-5 h-5" />, text: 'Vision Plan' },
     { to: 'services', icon: <FaBullseye className="w-5 h-5" />, text: 'Services' },
     { to: 'projects', icon: <FaTrophy className="w-5 h-5" />, text: 'Projects' },
-    { to: 'quotes', icon: <FaDollarSign className="w-5 h-5" />, text: 'Quotes' }, // Updated to 'Quote'
+    { to: 'quotes', icon: <FaPhone className="w-5 h-5" />, text: 'Contact' }, 
   ];  
 
   return (
