@@ -1,0 +1,40 @@
+.event-tile {
+    background-color: #e6f4ea; /* Subtle color for event days */
+  }
+  
+  .current-date {
+    border: 2px solid #1b5538;
+    background-color: #f0faf5;
+  }
+  
+  .slide-in {
+    animation: slideIn 0.3s ease-out;
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Calendar tile hover effect */
+  .react-calendar__tile:hover {
+    background-color: #e6f4ea;
+    cursor: pointer;
+  }
+  
+  /* Transition for month/year navigation */
+  .react-calendar__navigation__label, .react-calendar__navigation__arrow {
+    color: #1b5538;
+    transition: color 0.2s ease-in;
+  }
+  
+  .react-calendar__navigation__label:hover, .react-calendar__navigation__arrow:hover {
+    color: #16623b;
+  }
+  
