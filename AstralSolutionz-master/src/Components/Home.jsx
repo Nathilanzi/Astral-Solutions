@@ -183,6 +183,7 @@ const Home = () => {
           <li>Database Development</li>
           <li>Digital Transformation Strategies</li>
           <li>Custom Software Solutions</li>
+          <li> Impact Management and Monitoring</li>
         </ul>
       </section>
 
@@ -230,11 +231,21 @@ const Home = () => {
   <div className="space-y-6 text-[#00FFAB]">
     <div className="flex items-center gap-4">
       <Phone className="w-6 h-6 text-[#007AFF]" />
-      <span>+27 63 687 3558</span>
+      <a
+        href="tel:+27636873558"
+        className="hover:underline"
+      >
+        +27 63 687 3558
+      </a>
     </div>
     <div className="flex items-center gap-4">
       <Users className="w-6 h-6 text-[#007AFF]" />
-      <span>nathilanziv@gmail.com</span>
+      <a
+        href="mailto:nathilanziv@gmail.com"
+        className="hover:underline"
+      >
+        nathilanziv@gmail.com
+      </a>
     </div>
     <div className="flex items-center gap-4">
       <Calendar className="w-6 h-6 text-[#007AFF]" />
@@ -242,7 +253,14 @@ const Home = () => {
     </div>
     <div className="flex items-center gap-4">
       <Target className="w-6 h-6 text-[#007AFF]" />
-      <span>1/61 Lenatong Section, Phokeng, Rustenburg 0300</span>
+      <a
+        href="https://www.google.com/maps?q=25%C2%B034'35.3%22S+27%C2%B010'14.7%22E"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:underline"
+      >
+        1/61 Lenatong Section, Phokeng, Rustenburg 0300
+      </a>
     </div>
   </div>
 </section>
