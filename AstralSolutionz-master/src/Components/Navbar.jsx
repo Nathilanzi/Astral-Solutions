@@ -31,8 +31,9 @@ const Navbar = () => {
     { to: 'vision-plan', icon: <FaSeedling className="w-5 h-5" />, text: 'Vision Plan' },
     { to: 'services', icon: <FaBullseye className="w-5 h-5" />, text: 'Services' },
     { to: 'projects', icon: <FaTrophy className="w-5 h-5" />, text: 'Projects' },
-    { to: 'quotes', icon: <FaPhone className="w-5 h-5" />, text: 'Contact' }, 
-  ];  
+    { to: 'contact', icon: <FaPhone className="w-5 h-5" />, text: 'Contact' }, // Corrected "quotes" to "contact"
+  ];
+  
 
   return (
     <>

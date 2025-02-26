@@ -4,12 +4,11 @@ import { Link as ScrollLink } from 'react-scroll';
 const Footer = () => {
   const navLinks = [
     { text: "Home", to: "home" },
-    { text: "About", to: "about" },
-    { text: "Vision Plan", to: "vision-plan" },
-    { text: "Services", to: "services" },
-    { text: "Projects", to: "projects" },
-    { text: "Quotes", to: "quotes" },
-    { text: "Contact", to: "contact" },
+  { text: "About", to: "about" },
+  { text: "Vision Plan", to: "vision-plan" },
+  { text: "Services", to: "services" },
+  { text: "Projects", to: "projects" },
+  { text: "Contact", to: "contact" },
   ];
 
   return (
