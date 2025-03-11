@@ -98,12 +98,7 @@ const Home = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6 }}
             >
-              <Link
-                to="/about" // Ensure this links to the "about" route
-                className="inline-flex items-center gap-2 px-8 py-3 bg-[#007AFF] text-white rounded-full hover:bg-[#397D5A] transition-colors duration-300"
-              >
-                Learn More <ChevronRight className="w-5 h-5" />
-              </Link>
+            
             </motion.div>
           </div>
         </div>
